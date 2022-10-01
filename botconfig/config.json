@@ -1,0 +1,34 @@
+{
+    "token": "OTMzMzEwNzg3OTI0MTQ4MjM0.GOL-3F.z2LALq60QkOnlh3Tc559pGUvo60fdAkMqr5cvY",
+    "prefix": "c!",
+    "mongo_server": "mongodb+srv://Tohru:khoai0908@cluster0.cgcnc.mongodb.net/?retryWrites=true&w=majority",
+    "loadSlashsGlobal": true, "_COMMENT_": "Set it to true, when your Slash Commands are ready, false loads instant true loads slow but stable! (GLOBAL/GUILD COMMANDS, DISCORD DOCS!)",
+    "slashCommandsDirs": [
+          {
+                "Folder": "Info",
+                "CmdName": "info",
+                "CmdDescription": "Grant specific Information about something!"
+          },
+          {
+                "Folder": "Admin",
+                "CmdName": "admin",
+                "CmdDescription": "Administrate the Server!"
+          },
+          {
+                "Folder": "Account",
+                "CmdName": "account",
+                "CmdDescription": "account register and login"
+          },
+          {
+            "Folder": "redeem",
+            "CmdName": "redeem",
+            "CmdDescription": "redeem key"
+          },
+          {
+            "Folder": "Generate",
+            "CmdName": "generate",
+            "CmdDescription": "Generate key"
+          }
+     ]
+  }
+  
